@@ -1,0 +1,25 @@
+* {
+    background-color: rgb(243,220,143);
+}
+
+h2 {
+    text-align: center;
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+    color: rgb(129,121,173);
+    text-shadow: 3px 3px 2px #000;
+}
+
+section {
+    text-align: center;
+    font-size: 50px;
+}
+
+.btn {
+    font-size: 40px;
+}
+
+.btn_js {
+    font-size: 65px;
+}

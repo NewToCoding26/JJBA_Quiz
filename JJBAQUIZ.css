@@ -1,0 +1,66 @@
+* {
+    background-color: rgb(243,220,143);
+}
+
+.title {
+    text-align: center;
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+    color: rgb(129,121,173);
+    text-shadow: 3px 3px 2px #000;
+}
+.welcome {
+    text-align: left;
+    padding: 20px;
+    margin: 10px;
+}
+
+.noUnderline {
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.noUnderline:hover::after {
+    content: attr(data-title); /* Display the stored title attribute */
+    display: block;
+    position: absolute;
+    color: rgb(129,121,173); /* Tooltip text color */
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 0.8em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    white-space: nowrap; /* Prevents text from wrapping */
+    z-index: 10; /* Ensure the tooltip is above other elements */
+    top: -130%; /* Position tooltip below the text */
+    left: 70%; /* Center the tooltip horizontally */
+    transform: translateX(-50%); /* Adjust positioning to center the tooltip */
+    margin-top: 5px; /* Space between text and tooltip */
+    font-size: 14px;
+    font-weight: bolder;
+    border: 1px solid rgb(129,121,173);
+}
+
+.text {
+    font-size: 21px;
+}
+
+section {
+    color: #333333;
+}
+
+.difficulty {
+    text-align: center;
+    font-size: 26px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.btn {
+    font-size: 26px;
+    margin-top: 0;
+    line-height: 1;
+}

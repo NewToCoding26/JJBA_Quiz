@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Beginner.css">
+    <title>Beginner QUIZ</title>
+</head>
+<body>
+    <div class="startBeginner">
+        <h2>BEGINNER QUIZ</h2>
+    </div>
+    <main>
+        <section>
+            <div id="quiz-section">
+                <p id="question">Question will appear here</p>
+                <button class="btn" onclick="answerQuestion('a')">Answer A</button>
+                <button class="btn" onclick="answerQuestion('b')">Answer B</button>
+                <button class="btn" onclick="answerQuestion('c')">Answer C</button>
+                <button class="btn" onclick="answerQuestion('d')">Answer D</button>
+            </div>
+        </section>
+        <section>
+            <div id="result-section" style="display: none;">
+                <h3 id="score-text">Your score: 0/0</h3>
+                <button onclick="restartQuiz()" class="btn_js">Restart Quiz</button>
+                <h2>Select Difficulty Level</h2>
+                <button onclick="selectFanDifficulty()" class="btn_js">Fan</button>
+                <button onclick="selectVeteranDifficulty()" class="btn_js">Veteran</button>
+            </div>
+        </section>
+    </main>
+    <script src="Beginner.js"></script>
+</body>
+</html>

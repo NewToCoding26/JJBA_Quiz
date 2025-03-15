@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="JJBAQUIZ.css">
+    <title>JJBA QUZ</title>
+</head>
+<body>
+    <div class="start">
+        <h1 class="title">JJBA QUIZ</h1>
+    </div>
+    <main>
+        <section>
+            <h2 class="welcome"> Welcome to the Ultimate <abbr class="noUnderline" title="Jojo's Bizzare Adventure">JJBA</abbr> Challenge!</h2>
+            <p class="text">
+
+                Prepare yourself for a fun and engaging journey through different levels of trivia mastery. <br>
+                This quiz is designed for everyone, whether you’re just starting with the anime or you’re a long time manga reader. I divided the quiz into three levels of difficulty: <br>
+                
+                <strong>Beginner:</strong> Perfect for those who are just beginning the anime or watched it just casually. These questions will build your confidence. <br>
+                <strong>Fan:</strong> If you’ve got some knowledge under your belt, ready for a bit more of a challenge and call yourself an JJBA enthusiast, this is the level for you. <br>
+                <strong>Veteran:</strong> For the trivia warriors who thrive on tough questions, obscure facts and read the latest JJBA chapter, this level will put your skills to the ultimate test! <br>
+                No matter which level you start with, there’s something here for everyone. So, choose your level, dive in, and see how far you can go. <br> <br> <strong> Good luck! </strong></p>
+        </section>
+        <section>
+            <div class="difficulty" id="difficulty-selection">
+                <h2>Select Difficulty Level</h2>
+                <button class="btn" onclick="redirectToQuiz('Beginner')">Beginner</button>
+                <button class="btn" onclick="redirectToQuiz('Fan')">Fan</button>
+                <button class="btn" onclick="redirectToQuiz('Veteran')">Veteran</button>
+            </div>
+        </section>
+    </main>
+    <script src="JJBAQUIZ.js"></script>
+</body>
+</html>
