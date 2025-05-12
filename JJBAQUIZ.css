@@ -23,20 +23,20 @@
 }
 
 .noUnderline:hover::after {
-    content: attr(data-title); /* Display the stored title attribute */
+    content: attr(data-title); 
     display: block;
     position: absolute;
-    color: rgb(129,121,173); /* Tooltip text color */
+    color: rgb(129,121,173); 
     padding: 5px;
     border-radius: 3px;
     font-size: 0.8em;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-    white-space: nowrap; /* Prevents text from wrapping */
-    z-index: 10; /* Ensure the tooltip is above other elements */
-    top: -130%; /* Position tooltip below the text */
-    left: 70%; /* Center the tooltip horizontally */
-    transform: translateX(-50%); /* Adjust positioning to center the tooltip */
-    margin-top: 5px; /* Space between text and tooltip */
+    white-space: nowrap; 
+    z-index: 10; 
+    top: -130%; 
+    left: 70%; 
+    transform: translateX(-50%);
+    margin-top: 5px; 
     font-size: 14px;
     font-weight: bolder;
     border: 1px solid rgb(129,121,173);
