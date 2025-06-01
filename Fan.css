@@ -23,3 +23,64 @@ section {
 .btn_js {
     font-size: 65px;
 }
+
+/* Tablet Styles (768px bis 1024px) */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    h2 {
+        font-size: 70px;
+    }
+    
+    section {
+        font-size: 40px;
+    }
+    
+    .btn {
+        font-size: 32px;
+    }
+    
+    .btn_js {
+        font-size: 50px;
+    }
+}
+
+/* Mobile Styles (bis 767px) */
+@media screen and (max-width: 767px) {
+    h2 {
+        font-size: 45px;
+        text-shadow: 2px 2px 1px #000;
+    }
+    
+    section {
+        font-size: 28px;
+        padding: 10px;
+    }
+    
+    .btn {
+        font-size: 24px;
+        padding: 10px 15px;
+    }
+    
+    .btn_js {
+        font-size: 35px;
+        padding: 8px 12px;
+    }
+}
+
+/* Extra kleine Handys (bis 480px) */
+@media screen and (max-width: 480px) {
+    h2 {
+        font-size: 35px;
+    }
+    
+    section {
+        font-size: 22px;
+    }
+    
+    .btn {
+        font-size: 20px;
+    }
+    
+    .btn_js {
+        font-size: 28px;
+    }
+}

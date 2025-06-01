@@ -10,6 +10,7 @@
     color: rgb(129,121,173);
     text-shadow: 3px 3px 2px #000;
 }
+
 .welcome {
     text-align: left;
     padding: 20px;
@@ -63,4 +64,99 @@ section {
     font-size: 26px;
     margin-top: 0;
     line-height: 1;
+}
+
+/* Tablet Styles (768px bis 1024px) */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .title {
+        font-size: 70px;
+    }
+    
+    .welcome {
+        padding: 15px;
+        margin: 8px;
+    }
+    
+    .text {
+        font-size: 18px;
+    }
+    
+    .difficulty {
+        font-size: 22px;
+    }
+    
+    .btn {
+        font-size: 22px;
+    }
+    
+    .noUnderline:hover::after {
+        font-size: 12px;
+        left: 50%;
+    }
+}
+
+/* Mobile Styles (bis 767px) */
+@media screen and (max-width: 767px) {
+    .title {
+        font-size: 45px;
+        text-shadow: 2px 2px 1px #000;
+    }
+    
+    .welcome {
+        padding: 10px;
+        margin: 5px;
+        text-align: center;
+    }
+    
+    .text {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    
+    .difficulty {
+        font-size: 18px;
+    }
+    
+    .btn {
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+    
+    .noUnderline:hover::after {
+        font-size: 10px;
+        left: 50%;
+        top: -120%;
+        white-space: normal;
+        width: 150px;
+    }
+}
+
+/* Extra kleine Handys (bis 480px) */
+@media screen and (max-width: 480px) {
+    .title {
+        font-size: 35px;
+        padding: 10px;
+    }
+    
+    .welcome {
+        padding: 8px;
+        margin: 3px;
+    }
+    
+    .text {
+        font-size: 14px;
+    }
+    
+    .difficulty {
+        font-size: 16px;
+    }
+    
+    .btn {
+        font-size: 16px;
+        padding: 6px 10px;
+    }
+    
+    .noUnderline:hover::after {
+        display: none; /* Tooltips auf sehr kleinen Geräten ausblenden */
+    }
 }
